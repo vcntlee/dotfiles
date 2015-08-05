@@ -67,7 +67,7 @@ slate.bind("f:alt", function(win) {
 
 //********** left_resize ********************************************
 var left_resize = slate.operation("resize", {
-  "width" : "-10%",
+  "width" : "-5%",
   "height" : "+0%"  
 });  
 
@@ -75,7 +75,7 @@ slate.bind("j:alt", left_resize);
 
 //********** right_resize ********************************************
 var right_resize = slate.operation("resize", {
-  "width" : "+10%", 
+  "width" : "+5%", 
   "height" : "+0%"
 });  
 
@@ -84,7 +84,7 @@ slate.bind("l:alt", right_resize);
 //********** top_resize ********************************************
 var top_resize = slate.operation("resize", {
   "width" : "0%", 
-  "height" : "-10%"
+  "height" : "-5%"
 });  
 
 slate.bind("i:alt", top_resize);
@@ -92,7 +92,7 @@ slate.bind("i:alt", top_resize);
 //********** bottom_resize ********************************************
 var bottom_resize = slate.operation("resize", {
   "width" : "0%", 
-  "height" : "+10%"
+  "height" : "+5%"
 });  
 
 slate.bind("k:alt", bottom_resize);
