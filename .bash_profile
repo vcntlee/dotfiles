@@ -26,7 +26,7 @@ export LSCOLORS=CxFxCxDxbxegedabagaced
 
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export DOCKER_HOST=tcp://10.40.42.42:4243
-
+export EDITOR=vim
 PS1='\[\e[33m\]\d \[\e[0;36m\]\t\[\e[0m\] \[\e[32m\]Vicente \[\e[33m\]\w\[\e[0m\]\$ '
 
 #git auto-completion
