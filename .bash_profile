@@ -10,13 +10,14 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 alias wifion="networksetup -setairportpower en1 on" 
 alias wifioff="networksetup -setairportpower en1 off"
 alias volume0="osascript -e 'set volume 0'" 
-alias eecs280="cd ~/Desktop/EECS280"
-alias eecs402="cd ~/Desktop/EECS402"
+alias eecs280="cd ~/Desktop/desktop/EECS280"
+alias eecs281="cd ~/Desktop/desktop/EECS281"
+alias eecs402="cd ~/Desktop/desktop/EECS402"
 alias deepfield="cd ~/deepfield-bootstrap"
 alias chrome="open -a google\ chrome"
-alias iostut2="open ~/Desktop/iosTutorials/The\ iOS\ Apprentice\ 2\ -\ Checklists/iOS_Apprentice_2_Checklists_v3.3.pdf"
-alias iosapp2="open ~/Desktop/iosApps/Checklists/Checklists.xcodeproj"
-alias dsk="cd ~/Desktop"
+alias iostut2="open ~/Desktop/desktop/iosTutorials/The\ iOS\ Apprentice\ 2\ -\ Checklists/iOS_Apprentice_2_Checklists_v3.3.pdf"
+alias iosapp2="open ~/Desktop/desktop/iosApps/Checklists/Checklists.xcodeproj"
+alias dsk="cd ~/Desktop/desktop"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 #shell color
 export CLICOLOR=1
