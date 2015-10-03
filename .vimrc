@@ -44,9 +44,11 @@ set softtabstop=4   " Sets the number of columns for a TAB
 set expandtab       " Expand TABs to spaces
 
 set hlsearch
+set smarttab
 
 set nowrap          "don't wrap lines
 set autoindent
+set smartindent
 set shiftwidth=4  " number of spaces to use for autoindenting
 set ignorecase    " ignore case when searching
 set smartcase     " ignore case if search pattern is all lowercase,
@@ -60,4 +62,3 @@ nnoremap <ESC><ESC> :nohlsearch<CR>
 set background=dark
 
 set clipboard+=unnamed
-
