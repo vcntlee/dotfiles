@@ -62,3 +62,7 @@ nnoremap <ESC><ESC> :nohlsearch<CR>
 set background=dark
 
 set clipboard+=unnamed
+map <C-c> :s/^/\/\//<Enter>
+"adds // to code"
+map <C-u> :s/^\/\///<Enter>
+"deducts // to code"
